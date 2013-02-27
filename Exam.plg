@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Exam - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Exam.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\gyliu\Desktop\ms\Exam.rc"" 
+Creating temporary file "C:\DOCUME~1\gyliu\LOCALS~1\Temp\RSP1A97.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Exam.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\gyliu\Desktop\ms\Config.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\EngmanDlg.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\Exam.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\ExamDoc.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\ExamView.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\ImportDlg.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\MainFrm.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\Panel.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\SoftmanDlg.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\StatusDlg.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\StyleDlg.cpp"
+"C:\Documents and Settings\gyliu\Desktop\ms\TotalNum.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gyliu\LOCALS~1\Temp\RSP1A97.tmp" 
+Creating temporary file "C:\DOCUME~1\gyliu\LOCALS~1\Temp\RSP1A98.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Exam.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\gyliu\Desktop\ms\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gyliu\LOCALS~1\Temp\RSP1A98.tmp" 
+Creating temporary file "C:\DOCUME~1\gyliu\LOCALS~1\Temp\RSP1A99.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Exam.pdb" /machine:I386 /out:"Release/Exam.exe" 
+".\Release\Config.obj"
+".\Release\EngmanDlg.obj"
+".\Release\Exam.obj"
+".\Release\ExamDoc.obj"
+".\Release\ExamView.obj"
+".\Release\ImportDlg.obj"
+".\Release\MainFrm.obj"
+".\Release\Panel.obj"
+".\Release\SoftmanDlg.obj"
+".\Release\StatusDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StyleDlg.obj"
+".\Release\TotalNum.obj"
+".\Release\Exam.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\gyliu\LOCALS~1\Temp\RSP1A99.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Config.cpp
+EngmanDlg.cpp
+Exam.cpp
+ExamDoc.cpp
+ExamView.cpp
+ImportDlg.cpp
+MainFrm.cpp
+Panel.cpp
+SoftmanDlg.cpp
+StatusDlg.cpp
+StyleDlg.cpp
+TotalNum.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\gyliu\LOCALS~1\Temp\RSP1A9B.tmp" with contents
+[
+/nologo /o"Release/Exam.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\Config.sbr"
+".\Release\EngmanDlg.sbr"
+".\Release\Exam.sbr"
+".\Release\ExamDoc.sbr"
+".\Release\ExamView.sbr"
+".\Release\ImportDlg.sbr"
+".\Release\MainFrm.sbr"
+".\Release\Panel.sbr"
+".\Release\SoftmanDlg.sbr"
+".\Release\StatusDlg.sbr"
+".\Release\StyleDlg.sbr"
+".\Release\TotalNum.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\gyliu\LOCALS~1\Temp\RSP1A9B.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Exam.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
