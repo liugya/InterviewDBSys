@@ -40,4 +40,6 @@
 #6. Command
     git commit -a
     git push origin master
+    git config user.name "liugya"
+    git config user.email "gyliu513@gmail.com"
 #
